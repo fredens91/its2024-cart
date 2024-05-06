@@ -49,7 +49,8 @@ registerLocaleData(localeIt);
     ReactiveFormsModule,
     HttpClientModule,
     NgbModule
-  ],
+
+   ],
   providers: [
     {provide: DEFAULT_CURRENCY_CODE, useValue: 'EUR'},
     {provide: LOCALE_ID, useValue: 'it'},
